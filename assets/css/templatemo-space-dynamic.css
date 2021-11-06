@@ -189,7 +189,7 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  /* color: #03a4ed; */
 }
 
 .section-heading h2 span {
@@ -1079,6 +1079,17 @@ Portfolio
 --------------------------------------------- 
 */
 
+.day {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  color: white !important;
+}
+
+.showed-content {
+  /* background-image: url(/assets/images/banner-right-image.png); */
+}
+
 .our-portfolio {
   padding-top: 120px;
   margin-top: 0px;
@@ -1128,7 +1139,6 @@ Portfolio
 
 .showed-content {
   height: 150px;
-  border: 2px solid black;
 }
 
 .our-portfolio .hidden-content:after {
