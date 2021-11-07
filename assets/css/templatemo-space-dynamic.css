@@ -28,6 +28,8 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
 ---------------------------------------------
@@ -1080,10 +1082,15 @@ Portfolio
 */
 
 .day {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 35px;
+  font-weight: 500;
 }
 
 .showed-content {
@@ -1125,7 +1132,7 @@ Portfolio
 .our-portfolio .hidden-content {
   background: rgb(255,77,30);
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-  padding: 30px;
+  padding: 30px 0;
  
   border-radius: 20px;
   text-align: center;
@@ -1159,7 +1166,7 @@ Portfolio
 .our-portfolio .hidden-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 20px;
 }
 
@@ -1171,13 +1178,15 @@ Portfolio
   top: 0px;
   position: relative;
   z-index: 3;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.65);
   margin: 10px 0;
   text-align: center;
   padding: 61px 36px 36px 36px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.5s;
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .our-portfolio .showed-content img {
