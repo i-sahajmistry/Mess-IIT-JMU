@@ -407,22 +407,22 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:last-child {
+/* .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
   padding-left: 40px;
-}
+} */
 
-.header-area .main-nav .nav li:last-child a,
+/* .header-area .main-nav .nav li:last-child a,
 .background-header .main-nav .nav li:last-child a {
   color: #fff !important;
   padding: 0px 20px;
   font-weight: 400;
-}
+} */
 
-.header-area .main-nav .nav li:last-child a:hover,
+/* .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
-}
+} */
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -455,10 +455,10 @@ header
   opacity: 1;
 }
 
-.header-area .main-nav .nav li:last-child a:hover,
+/* .header-area .main-nav .nav li:last-child a:hover,
 .background-header .main-nav .nav li:last-child a:hover {
   background-color: #03a4ed;
-}
+} */
 
 .header-area .main-nav .nav li.submenu {
   position: relative;
@@ -672,7 +672,7 @@ header
   }
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child,
   .background-header .main-nav .nav li:last-child {
     display: none;
@@ -681,7 +681,7 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .background-header .main-nav .nav {
@@ -916,7 +916,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 226px 0px 50px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1172,10 +1172,6 @@ Portfolio
   font-weight: 500;
 }
 
-.showed-content {
-  /* background-image: url(/assets/images/banner-right-image.png); */
-}
-
 .our-portfolio {
   padding-top: 120px;
   margin-top: 0px;
@@ -1200,7 +1196,7 @@ Portfolio
 
 .our-portfolio .item:hover .showed-content {
   top: -100px;
-  opacity: 1;
+  opacity: 0;
   visibility: hidden;
 }
 
@@ -1285,11 +1281,48 @@ Portfolio
 Blog
 --------------------------------------------- 
 */
+.comp {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.938);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  color: rgb(0, 0, 0) !important;
+  font-size: 35px;
+  font-weight: 500;
+}
+.insertcomp {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.938);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
 
+  font-size: 35px;
+  font-weight: 500;
+}
+/* .hr1 {
+  height: 25px;
+  background: url(/uploads/media/default/0001/01/e7a97bd9b2d25886cc7b9115de83b6b28b73b90b.jpeg)
+    no-repeat center;
+  border: none;
+  width: 100%;
+} */
+
+/* .hr1 {
+  width: 100%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b7d0e2;
+  border: 0 none;
+} */
 .our-blog {
   position: relative;
   margin-top: 80px;
-  padding-top: 120px;
+  padding-top: 0px;
 }
 
 .our-blog .section-heading h2 {
