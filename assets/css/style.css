@@ -308,15 +308,15 @@ header
 --------------------------------------------- 
 */
 
-.background-header {
+/* .background-header {
   background-color: #fff !important;
-  height: 80px !important;
-  position: fixed !important;
+  height: 40px !important;
+  position: sticky !important;
   top: 0px;
   left: 0px;
   right: 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
-}
+} */
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
@@ -358,18 +358,32 @@ header
   text-transform: uppercase;
   letter-spacing: 2px;
   float: left;
+  position: absolute;
+  left: -30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
+.header-area .main-nav .logo div.iit-logo img {
+  position: relative;
+  top: -6px;
+  left: 0px;
+  height: 80px;
+  width: 80px;
+}
+
 .header-area .main-nav .logo h4 {
+  text-align: left;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   color: #03a4ed;
-  line-height: 100px;
+  margin-top: 20px;
+  position: relative;
+  /* left: 40px; */
+  /* line-height: 100px; */
   float: left;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
